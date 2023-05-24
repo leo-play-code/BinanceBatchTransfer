@@ -9,9 +9,11 @@ address_list = address_list.splitlines()
 
 
 
+'''
+運行以下code要先編輯數量
+'''
 
 
-
-for item in address_list:
-    amount = round(random_float(0.03,0.04),7)
-    sendToken(item,amount)
+# for item in address_list:
+#     amount = round(random_float(0.03,0.04),7)
+#     sendToken(item,amount)
