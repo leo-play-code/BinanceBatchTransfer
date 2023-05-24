@@ -14,6 +14,6 @@ address_list = address_list.splitlines()
 '''
 
 
-# for item in address_list:
-#     amount = round(random_float(0.03,0.04),7)
-#     sendToken(item,amount)
+for item in address_list:
+    amount = round(random_float(0.03,0.04),7)
+    sendToken(item,amount,'ETH','ETH')
